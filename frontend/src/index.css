@@ -215,6 +215,12 @@ code {
   margin-right: 10px;
 }
 
+.extraText{
+  font-weight: 300;
+  color: gray;
+  margin-bottom: 5px;
+}
+
 input{
   width: 200px;
   padding: 15px 20px;

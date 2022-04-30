@@ -21,10 +21,10 @@ const Login = () => {
                         <img src={Google} alt="" className="icon" />
                         Google
                     </div>
-                    <div className="loginButton facebook" >
+                    {/* <div className="loginButton facebook" >
                         <img src={Facebook} alt="" className="icon" />
                         Facebook
-                    </div>
+                    </div> */}
                     <div className="loginButton github" onClick={github} >
                         <img src={Github} alt="" className="icon" />
                         Github
@@ -35,6 +35,7 @@ const Login = () => {
                     <div className="or">OR</div>
                 </div>
                 <div className="right">
+                    <span className="extraText">(This is just for UI design)</span>
                     <input type="text" placeholder="Username" />
                     <input type="text" placeholder="Password" />
                     <button className="submit">Login</button>
